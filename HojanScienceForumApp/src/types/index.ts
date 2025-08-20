@@ -116,11 +116,8 @@ export type RootStackParamList = {
 export type MainTabParamList = {
   Home: undefined;
   Schedule: undefined;
-  Speakers: undefined;
-  Live: undefined;
-  Community: undefined;
-  Resources: undefined;
-  More: undefined;
+  MySchedule: undefined;
+  Settings: undefined;
 };
 
 // Socket.io Event Types

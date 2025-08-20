@@ -4,14 +4,11 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import { useSelector } from 'react-redux';
 import { RootState } from '../types';
 
-// Import screen components (we'll create these next)
+// Import screen components
 import HomeScreen from '../screens/home/HomeScreen';
 import ScheduleScreen from '../screens/schedule/ScheduleScreen';
-import SpeakersScreen from '../screens/speakers/SpeakersScreen';
-import LiveScreen from '../screens/live/LiveScreen';
-import CommunityScreen from '../screens/community/CommunityScreen';
-import ResourcesScreen from '../screens/resources/ResourcesScreen';
-import MoreScreen from '../screens/more/MoreScreen';
+import MyScheduleScreen from '../screens/myschedule/MyScheduleScreen';
+import SettingsScreen from '../screens/settings/SettingsScreen';
 
 import { MainTabParamList } from '../types';
 
@@ -31,22 +28,13 @@ const MainTabNavigator: React.FC = () => {
               iconName = 'home';
               break;
             case 'Schedule':
-              iconName = 'schedule';
+              iconName = 'event';
               break;
-            case 'Speakers':
-              iconName = 'people';
+            case 'MySchedule':
+              iconName = 'bookmark';
               break;
-            case 'Live':
-              iconName = 'live-tv';
-              break;
-            case 'Community':
-              iconName = 'group';
-              break;
-            case 'Resources':
-              iconName = 'library-books';
-              break;
-            case 'More':
-              iconName = 'more-horiz';
+            case 'Settings':
+              iconName = 'settings';
               break;
             default:
               iconName = 'help';
@@ -86,7 +74,7 @@ const MainTabNavigator: React.FC = () => {
       <Tab.Screen 
         name="Home" 
         component={HomeScreen}
-        options={{ title: 'Dashboard' }}
+        options={{ title: 'Home' }}
       />
       <Tab.Screen 
         name="Schedule" 
@@ -94,33 +82,14 @@ const MainTabNavigator: React.FC = () => {
         options={{ title: 'Program' }}
       />
       <Tab.Screen 
-        name="Speakers" 
-        component={SpeakersScreen}
-        options={{ title: 'Speakers' }}
-      />
-      {!isGuest && (
-        <Tab.Screen 
-          name="Live" 
-          component={LiveScreen}
-          options={{ title: 'Live' }}
-        />
-      )}
-      {!isGuest && (
-        <Tab.Screen 
-          name="Community" 
-          component={CommunityScreen}
-          options={{ title: 'Network' }}
-        />
-      )}
-      <Tab.Screen 
-        name="Resources" 
-        component={ResourcesScreen}
-        options={{ title: 'Resources' }}
+        name="MySchedule" 
+        component={MyScheduleScreen}
+        options={{ title: 'My Schedule' }}
       />
       <Tab.Screen 
-        name="More" 
-        component={MoreScreen}
-        options={{ title: 'More' }}
+        name="Settings" 
+        component={SettingsScreen}
+        options={{ title: 'Settings' }}
       />
     </Tab.Navigator>
   );
