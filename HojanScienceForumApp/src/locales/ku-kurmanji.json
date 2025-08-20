@@ -1,0 +1,101 @@
+{
+  "navigation": {
+    "home": "Sereke",
+    "schedule": "Bername",
+    "speakers": "Axêveran",
+    "live": "Zindî",
+    "community": "Civak",
+    "resources": "Çavkanî",
+    "more": "Zêdetir"
+  },
+  "auth": {
+    "welcome": "Bi xêr bêne bo",
+    "conference_title": "Konferansa Zanistî ya Hejan a Yekem",
+    "subtitle": "Girêdana zanayên Kurd li cîhanê",
+    "date": "25-28 Tebax 2025 • Zanîngeha Ottawa",
+    "sign_in": "Têketin",
+    "create_account": "Ajimêrê çêbikin",
+    "continue_guest": "Wek mêvan berdewam bikin",
+    "language": "Ziman"
+  },
+  "home": {
+    "welcome": "Bi xêr bêne bo",
+    "conference_title": "Konferansa Zanistî ya Hejan a Yekem",
+    "subtitle": "Girêdana zanayên Kurd li cîhanê",
+    "live_now": "NIHA ZINDÎ YE",
+    "join_session": "Tevlî danişînê bibin",
+    "todays_schedule": "Bernameyê îro",
+    "view_full_schedule": "Temamê bernameye bibînin",
+    "quick_actions": "Kirinên bilez",
+    "browse_speakers": "Li axêveran bigerin",
+    "network": "Tore",
+    "resources": "Çavkanî",
+    "feedback": "Ra û bîr",
+    "announcements": "Daxuyanî"
+  },
+  "schedule": {
+    "conference_program": "Bernameyê konferansê",
+    "day": "Roja {{number}} - {{date}}",
+    "coming_soon": "Danişînên din zû tên...",
+    "add_to_agenda": "Zêde bike bernameye",
+    "session_types": {
+      "keynote": "Axaftina sereke",
+      "panel": "Panel",
+      "workshop": "Xebatgeh",
+      "poster": "Poster",
+      "networking": "Torçêkirin"
+    }
+  },
+  "speakers": {
+    "featured_speakers": "Axêverên taybet",
+    "browse_by_field": "Li gor warî bigerin",
+    "computer_science": "Zanista kompîwterê",
+    "biotechnology": "Bîyoteknolojî",
+    "environment": "Jîngehwarî",
+    "medicine": "Bijîşkî",
+    "connect": "Girêbidin"
+  },
+  "live": {
+    "live_stream": "Weşana zindî",
+    "join_chat": "Tevlî çetê bibin",
+    "ask_question": "Pirsê bikin",
+    "live_chat": "Çeta zindî",
+    "participants": "beşdar",
+    "coming_up_next": "Paşê tê"
+  },
+  "community": {
+    "community": "Civak",
+    "attendees": "Amadekar",
+    "connected": "Girêdayî",
+    "messages": "Peyam",
+    "find_connections": "Têkiliyên nû bibînin",
+    "interest_groups": "Komên berjewendîyê",
+    "recent_connections": "Têkiliyên nû",
+    "mentorship_program": "Bernameyê rêberîkirin",
+    "find_mentor": "Rêberek bibînin",
+    "get_started": "Destpê bikin"
+  },
+  "resources": {
+    "resources": "Çavkanî",
+    "featured_resources": "Çavkaniyên taybet",
+    "kurdish_language_tech": "Teknolojiya zimanê Kurdî",
+    "career_development": "Pêşkeftina kariyerê",
+    "young_researcher_guide": "Rêberiya lêkolînvanê ciwan",
+    "funding_opportunities": "Derfetên finankirinê",
+    "academic_pathway": "Rêberiya rêyê akademîk"
+  },
+  "more": {
+    "my_agenda": "Bernameyê min",
+    "my_connections": "Têkiliyên min",
+    "downloads": "Daxistin",
+    "notifications": "Hişyarkirin",
+    "language": "Ziman",
+    "dark_mode": "Moda tarî",
+    "privacy_security": "Teybet û ewlehî",
+    "send_feedback": "Ra bişînin",
+    "help_support": "Alîkarî û piştgirî",
+    "about": "Der barê",
+    "sign_out": "Derkeve",
+    "version": "Guherto"
+  }
+}

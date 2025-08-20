@@ -1,0 +1,101 @@
+{
+  "navigation": {
+    "home": "Dashboard",
+    "schedule": "Program",
+    "speakers": "Speakers",
+    "live": "Live",
+    "community": "Network",
+    "resources": "Resources",
+    "more": "More"
+  },
+  "auth": {
+    "welcome": "Welcome to",
+    "conference_title": "1st Hojan Science Forum",
+    "subtitle": "Connecting Kurdish Scientists Worldwide",
+    "date": "August 25-28, 2025 • University of Ottawa",
+    "sign_in": "Sign In",
+    "create_account": "Create Account",
+    "continue_guest": "Continue as Guest",
+    "language": "Language"
+  },
+  "home": {
+    "welcome": "Welcome to",
+    "conference_title": "1st Hojan Science Forum",
+    "subtitle": "Connecting Kurdish Scientists Worldwide",
+    "live_now": "LIVE NOW",
+    "join_session": "Join Session",
+    "todays_schedule": "Today's Schedule",
+    "view_full_schedule": "View Full Schedule",
+    "quick_actions": "Quick Actions",
+    "browse_speakers": "Browse Speakers",
+    "network": "Network",
+    "resources": "Resources",
+    "feedback": "Feedback",
+    "announcements": "Announcements"
+  },
+  "schedule": {
+    "conference_program": "Conference Program",
+    "day": "Day {{number}} - {{date}}",
+    "coming_soon": "More sessions coming soon...",
+    "add_to_agenda": "Add to Agenda",
+    "session_types": {
+      "keynote": "Keynote",
+      "panel": "Panel",
+      "workshop": "Workshop",
+      "poster": "Poster",
+      "networking": "Networking"
+    }
+  },
+  "speakers": {
+    "featured_speakers": "Featured Speakers",
+    "browse_by_field": "Browse by Field",
+    "computer_science": "Computer Science",
+    "biotechnology": "Biotechnology",
+    "environment": "Environment",
+    "medicine": "Medicine",
+    "connect": "Connect"
+  },
+  "live": {
+    "live_stream": "Live Stream",
+    "join_chat": "Join Chat",
+    "ask_question": "Ask Question",
+    "live_chat": "Live Chat",
+    "participants": "participants",
+    "coming_up_next": "Coming Up Next"
+  },
+  "community": {
+    "community": "Community",
+    "attendees": "Attendees",
+    "connected": "Connected",
+    "messages": "Messages",
+    "find_connections": "Find New Connections",
+    "interest_groups": "Interest Groups",
+    "recent_connections": "Recent Connections",
+    "mentorship_program": "Mentorship Program",
+    "find_mentor": "Find a Mentor",
+    "get_started": "Get Started"
+  },
+  "resources": {
+    "resources": "Resources",
+    "featured_resources": "Featured Resources",
+    "kurdish_language_tech": "Kurdish Language Technology",
+    "career_development": "Career Development",
+    "young_researcher_guide": "Young Researcher Guide",
+    "funding_opportunities": "Funding Opportunities",
+    "academic_pathway": "Academic Pathway Guide"
+  },
+  "more": {
+    "my_agenda": "My Agenda",
+    "my_connections": "My Connections",
+    "downloads": "Downloads",
+    "notifications": "Notifications",
+    "language": "Language",
+    "dark_mode": "Dark Mode",
+    "privacy_security": "Privacy & Security",
+    "send_feedback": "Send Feedback",
+    "help_support": "Help & Support",
+    "about": "About",
+    "sign_out": "Sign Out",
+    "version": "Version"
+  }
+}

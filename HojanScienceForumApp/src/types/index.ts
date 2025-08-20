@@ -1,0 +1,200 @@
+// User and Profile Types
+export interface UserProfile {
+  id: string;
+  name: string;
+  email: string;
+  affiliation: string;
+  researchInterests: string[];
+  biography: string;
+  socialLinks: {
+    linkedin?: string;
+    twitter?: string;
+    orcid?: string;
+  };
+  profileImage?: string;
+  userType: 'attendee' | 'speaker' | 'organizer' | 'guest';
+  preferredLanguage: 'en' | 'ku-sorani' | 'ku-kurmanji';
+  isGuest?: boolean;
+}
+
+// Session and Event Types
+export interface Session {
+  id: string;
+  title: {
+    en: string;
+    'ku-sorani': string;
+    'ku-kurmanji': string;
+  };
+  description: {
+    en: string;
+    'ku-sorani': string;
+    'ku-kurmanji': string;
+  };
+  startTime: Date;
+  endTime: Date;
+  type: 'keynote' | 'ted-talk' | 'panel' | 'workshop' | 'poster' | 'networking';
+  location: string;
+  speakers: Speaker[];
+  tags: string[];
+  isLive: boolean;
+  recordingUrl?: string;
+  materials: Resource[];
+}
+
+// Speaker Types
+export interface Speaker {
+  id: string;
+  name: string;
+  title: string;
+  affiliation: string;
+  biography: {
+    en: string;
+    'ku-sorani': string;
+    'ku-kurmanji': string;
+  };
+  expertise: string[];
+  profileImage: string;
+  socialLinks: {
+    linkedin?: string;
+    twitter?: string;
+    orcid?: string;
+  };
+  sessions: string[];
+}
+
+// Presentation Types
+export interface Presentation {
+  id: string;
+  title: string;
+  abstract: string;
+  presenterId: string;
+  sessionId: string;
+  slides?: string;
+  video?: string;
+  resources: Resource[];
+}
+
+// Resource Types
+export interface Resource {
+  id: string;
+  title: string;
+  description: string;
+  type: 'pdf' | 'video' | 'link' | 'image';
+  url: string;
+  downloadUrl?: string;
+  size?: number;
+  tags: string[];
+}
+
+// Social Features Types
+export interface Comment {
+  id: string;
+  userId: string;
+  sessionId: string;
+  content: string;
+  timestamp: Date;
+  likes: string[];
+  replies: Comment[];
+  language: string;
+}
+
+export interface NetworkingRequest {
+  id: string;
+  fromUserId: string;
+  toUserId: string;
+  message: string;
+  status: 'pending' | 'accepted' | 'declined';
+  timestamp: Date;
+}
+
+// Navigation Types
+export type RootStackParamList = {
+  Auth: undefined;
+  Main: undefined;
+};
+
+export type MainTabParamList = {
+  Home: undefined;
+  Schedule: undefined;
+  Speakers: undefined;
+  Live: undefined;
+  Community: undefined;
+  Resources: undefined;
+  More: undefined;
+};
+
+// Socket.io Event Types
+export const SocketEvents = {
+  JOIN_SESSION: 'join_session',
+  LEAVE_SESSION: 'leave_session',
+  NEW_COMMENT: 'new_comment',
+  LIVE_POLL: 'live_poll',
+  Q_A_QUESTION: 'qa_question',
+  NOTIFICATION: 'notification',
+  NETWORKING_REQUEST: 'networking_request',
+} as const;
+
+export type SocketEventType = typeof SocketEvents[keyof typeof SocketEvents];
+
+// Language Types
+export type LanguageCode = 'en' | 'ku-sorani' | 'ku-kurmanji';
+
+export interface TranslatedText {
+  en: string;
+  'ku-sorani': string;
+  'ku-kurmanji': string;
+}
+
+// Redux State Types
+export interface RootState {
+  auth: AuthState;
+  sessions: SessionsState;
+  speakers: SpeakersState;
+  user: UserState;
+  notifications: NotificationState;
+}
+
+export interface AuthState {
+  user: UserProfile | null;
+  isAuthenticated: boolean;
+  isGuest: boolean;
+  loading: boolean;
+  error: string | null;
+}
+
+export interface SessionsState {
+  sessions: Session[];
+  currentSession: Session | null;
+  userAgenda: string[];
+  loading: boolean;
+  error: string | null;
+}
+
+export interface SpeakersState {
+  speakers: Speaker[];
+  loading: boolean;
+  error: string | null;
+}
+
+export interface UserState {
+  profile: UserProfile | null;
+  connections: string[];
+  networkingRequests: NetworkingRequest[];
+  loading: boolean;
+  error: string | null;
+}
+
+export interface NotificationState {
+  notifications: Notification[];
+  unreadCount: number;
+}
+
+export interface Notification {
+  id: string;
+  title: string;
+  message: string;
+  type: 'session_reminder' | 'networking' | 'announcement' | 'live_session';
+  timestamp: Date;
+  read: boolean;
+  data?: any;
+}

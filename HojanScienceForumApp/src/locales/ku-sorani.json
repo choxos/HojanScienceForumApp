@@ -1,0 +1,101 @@
+{
+  "navigation": {
+    "home": "سەرەکی",
+    "schedule": "بەرنامە",
+    "speakers": "قسەکەران",
+    "live": "زیندوو",
+    "community": "کۆمەڵگا",
+    "resources": "سەرچاوەکان",
+    "more": "زیاتر"
+  },
+  "auth": {
+    "welcome": "بەخێربێن بۆ",
+    "conference_title": "یەکەم کۆنفرانسی زانستی هەژان",
+    "subtitle": "پەیوەستکردنی زانایان و توێژەرانی کورد لە جیهاندا",
+    "date": "٢٥-٢٨ ئابی ٢٠٢٥ • زانکۆی ئۆتاوا",
+    "sign_in": "چوونە ژوورەوە",
+    "create_account": "دروستکردنی ئەکاونت",
+    "continue_guest": "وەک میوان بەردەوام بە",
+    "language": "زمان"
+  },
+  "home": {
+    "welcome": "بەخێربێن بۆ",
+    "conference_title": "یەکەم کۆنفرانسی زانستی هەژان",
+    "subtitle": "پەیوەستکردنی زانایان و توێژەرانی کورد لە جیهاندا",
+    "live_now": "ئێستا زیندووە",
+    "join_session": "بەشداری کردن",
+    "todays_schedule": "بەرنامەی ئەمڕۆ",
+    "view_full_schedule": "بینینی تەواوی بەرنامە",
+    "quick_actions": "کردارە خێراکان",
+    "browse_speakers": "گەڕان لە قسەکەران",
+    "network": "تۆڕسازی",
+    "resources": "سەرچاوەکان",
+    "feedback": "ڕا و بۆچوون",
+    "announcements": "ڕاگەیاندنەکان"
+  },
+  "schedule": {
+    "conference_program": "بەرنامەی کۆنفرانس",
+    "day": "ڕۆژی {{number}} - {{date}}",
+    "coming_soon": "کۆبوونەوەکانی تر بەزووەوە دێن...",
+    "add_to_agenda": "زیادکردن بۆ بەرنامە",
+    "session_types": {
+      "keynote": "وتاری سەرەکی",
+      "panel": "پانێل",
+      "workshop": "وۆرکشۆپ",
+      "poster": "پۆستەر",
+      "networking": "تۆڕسازی"
+    }
+  },
+  "speakers": {
+    "featured_speakers": "قسەکەرانی تایبەت",
+    "browse_by_field": "گەڕان بەپێی بوار",
+    "computer_science": "زانستی کۆمپیوتەر",
+    "biotechnology": "بایۆتەکنۆلۆژی",
+    "environment": "ژینگە",
+    "medicine": "پزیشکی",
+    "connect": "پەیوەستبوون"
+  },
+  "live": {
+    "live_stream": "پەخشی زیندوو",
+    "join_chat": "بەشداری چات",
+    "ask_question": "پرسیار کردن",
+    "live_chat": "چاتی زیندوو",
+    "participants": "بەشداربوو",
+    "coming_up_next": "دواتر دێت"
+  },
+  "community": {
+    "community": "کۆمەڵگا",
+    "attendees": "بەشداربووان",
+    "connected": "پەیوەست",
+    "messages": "پەیامەکان",
+    "find_connections": "دۆزینەوەی پەیوەندی نوێ",
+    "interest_groups": "گروپە حەزەکان",
+    "recent_connections": "پەیوەندیە نوێیەکان",
+    "mentorship_program": "بەرنامەی ڕێنماییکردن",
+    "find_mentor": "دۆزینەوەی ڕێنما",
+    "get_started": "دەستپێکردن"
+  },
+  "resources": {
+    "resources": "سەرچاوەکان",
+    "featured_resources": "سەرچاوە تایبەتەکان",
+    "kurdish_language_tech": "تەکنەلۆژیای زمانی کوردی",
+    "career_development": "گەشەپێدانی کارییەر",
+    "young_researcher_guide": "ڕێنمای توێژەری گەنج",
+    "funding_opportunities": "دەرفەتەکانی فاندینگ",
+    "academic_pathway": "ڕێنمای ڕێگای ئەکادیمی"
+  },
+  "more": {
+    "my_agenda": "بەرنامەکەم",
+    "my_connections": "پەیوەندیەکانم",
+    "downloads": "داگرتنەکان",
+    "notifications": "ئاگادارکردنەوەکان",
+    "language": "زمان",
+    "dark_mode": "دۆخی تاریک",
+    "privacy_security": "تایبەتێتی و ئاسایش",
+    "send_feedback": "ناردنی ڕا",
+    "help_support": "یارمەتی و پشتگیری",
+    "about": "دەربارە",
+    "sign_out": "چوونە دەرەوە",
+    "version": "وەشان"
+  }
+}
