@@ -65,6 +65,18 @@ const AuthScreen: React.FC = () => {
             <TouchableOpacity 
               style={[
                 styles.languageButton, 
+                selectedLanguage === 'fr' && styles.languageButtonSelected
+              ]}
+              onPress={() => handleLanguageSelect('fr')}
+            >
+              <Text style={[
+                styles.languageButtonText,
+                selectedLanguage === 'fr' && styles.languageButtonTextSelected
+              ]}>Français</Text>
+            </TouchableOpacity>
+            <TouchableOpacity 
+              style={[
+                styles.languageButton, 
                 selectedLanguage === 'ku-sorani' && styles.languageButtonSelected
               ]}
               onPress={() => handleLanguageSelect('ku-sorani')}

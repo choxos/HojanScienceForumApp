@@ -1,22 +1,37 @@
 {
-  "navigation": {
-    "home": "Dashboard",
-    "schedule": "Program",
-    "speakers": "Speakers",
-    "live": "Live",
-    "community": "Network",
-    "resources": "Resources",
-    "more": "More"
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "refresh": "Refresh"
   },
   "auth": {
     "welcome": "Welcome to",
     "conference_title": "1st Hojan Science Forum",
     "subtitle": "Connecting Kurdish Scientists Worldwide",
-    "date": "August 25-28, 2025 • University of Ottawa",
     "sign_in": "Sign In",
     "create_account": "Create Account",
-    "continue_guest": "Continue as Guest",
-    "language": "Language"
+    "continue_as_guest": "Continue as Guest",
+    "select_language": "Select Language",
+    "guest_info": "As a guest, you can view the program but cannot access social features.",
+    "english": "English",
+    "french": "French",
+    "kurdish_sorani": "Kurdish Sorani",
+    "kurdish_kurmanji": "Kurdish Kurmanji"
+  },
+  "navigation": {
+    "program": "Program",
+    "my_schedule": "My Schedule"
   },
   "home": {
     "welcome": "Welcome to",
@@ -33,18 +48,49 @@
     "feedback": "Feedback",
     "announcements": "Announcements"
   },
-  "schedule": {
-    "conference_program": "Conference Program",
-    "day": "Day {{number}} - {{date}}",
-    "coming_soon": "More sessions coming soon...",
-    "add_to_agenda": "Add to Agenda",
+  "program": {
+    "title": "Conference Program",
+    "day": "Day {{number}}",
+    "session_details": "Session Details",
+    "speaker": "Speaker",
+    "time": "Time",
+    "location": "Location",
+    "theme": "Theme",
+    "description": "Description",
+    "add_to_schedule": "Add to Schedule",
+    "remove_from_schedule": "Remove from Schedule",
+    "notify_before": "Notify Before",
+    "minutes_before": "{{minutes}} minutes before",
     "session_types": {
       "keynote": "Keynote",
-      "panel": "Panel",
+      "presentation": "Presentation",
+      "panel": "Panel Discussion",
       "workshop": "Workshop",
-      "poster": "Poster",
-      "networking": "Networking"
+      "break": "Break",
+      "ceremony": "Ceremony",
+      "social": "Social Event",
+      "poster": "Poster Session"
     }
+  },
+  "my_schedule": {
+    "title": "My Schedule",
+    "selected_sessions": "{{count}} sessions selected",
+    "no_sessions": "No sessions selected",
+    "no_sessions_subtitle": "Browse the program and add sessions you're interested in",
+    "browse_program": "Browse Program",
+    "remind_me": "Remind Me",
+    "session_details": "Details",
+    "notifications": "Notifications",
+    "notification_title": "Session Starting Soon",
+    "notification_body": "{{session}} starts in {{minutes}} minutes",
+    "guest_notice": "Guests can view the schedule but cannot select sessions"
+  },
+  "notifications": {
+    "permission_title": "Enable Notifications",
+    "permission_message": "Allow notifications to get reminders for your selected sessions",
+    "enable": "Enable",
+    "session_starting": "Session Starting",
+    "session_reminder": "Session Reminder"
   },
   "speakers": {
     "featured_speakers": "Featured Speakers",

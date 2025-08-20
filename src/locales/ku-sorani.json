@@ -1,0 +1,86 @@
+{
+  "common": {
+    "loading": "بارکردن...",
+    "error": "هەڵە",
+    "retry": "دووبارە هەوڵبدەوە",
+    "cancel": "هەڵوەشاندنەوە",
+    "confirm": "پشتڕاستکردنەوە",
+    "save": "پاشەکەوتکردن",
+    "close": "داخستن",
+    "back": "گەڕانەوە",
+    "next": "دواتر",
+    "done": "تەواو",
+    "search": "گەڕان",
+    "filter": "فلتەرکردن",
+    "sort": "ڕیزکردن",
+    "refresh": "نوێکردنەوە"
+  },
+  "auth": {
+    "welcome": "بەخێربێن بۆ",
+    "conference_title": "یەکەم کۆنگرەی زانستیی هۆژان",
+    "subtitle": "پەیوەندیکردنی زاناکانی کورد لە جیهاندا",
+    "sign_in": "چونەژوورەوە",
+    "create_account": "دروستکردنی هەژمار",
+    "continue_as_guest": "وەک میوان بەردەوامبە",
+    "select_language": "زمان هەڵبژێرە",
+    "guest_info": "وەک میوان، دەتوانیت پرۆگرامەکە ببینیت بەڵام ناتوانیت دەسڕشتی تایبەتمەندییە کۆمەڵایەتییەکانت هەبێت.",
+    "english": "ئینگلیزی",
+    "french": "فەڕەنسی",
+    "kurdish_sorani": "کوردیی سۆرانی",
+    "kurdish_kurmanji": "کوردیی کورمانجی"
+  },
+  "navigation": {
+    "program": "پرۆگرام",
+    "my_schedule": "پرۆگرامی من"
+  },
+  "program": {
+    "title": "پرۆگرامی کۆنگرە",
+    "day": "ڕۆژی {{number}}ەم",
+    "session_details": "وردەکارییەکانی دانیشتن",
+    "speaker": "قسەکەر",
+    "time": "کات",
+    "location": "شوێن",
+    "theme": "بابەت",
+    "description": "شرۆڤەکردن",
+    "add_to_schedule": "زیادکردن بۆ پرۆگرام",
+    "remove_from_schedule": "لابردن لە پرۆگرام",
+    "notify_before": "ئاگادارکردنەوە پێش",
+    "minutes_before": "{{minutes}} خولەک پێشتر",
+    "session_types": {
+      "keynote": "وتەی سەرەکی",
+      "presentation": "پێشکەشکردن",
+      "panel": "گفتوگۆی پانێڵ",
+      "workshop": "وۆرک شۆپ",
+      "break": "پشوودان",
+      "ceremony": "بۆنە",
+      "social": "بۆنەی کۆمەڵایەتی",
+      "poster": "دانیشتنی پۆستەر"
+    }
+  },
+  "my_schedule": {
+    "title": "پرۆگرامی من",
+    "selected_sessions": "{{count}} دانیشتن هەڵبژێردراوە",
+    "no_sessions": "هیچ دانیشتنێک هەڵنەبژێردراوە",
+    "no_sessions_subtitle": "پرۆگرامەکە بگەڕێ و ئەو دانیشتنانە زیادبکە کە حەزت لێیانە",
+    "browse_program": "گەڕان لە پرۆگرام",
+    "remind_me": "بیرم بخەوە",
+    "session_details": "وردەکارییەکان",
+    "notifications": "ئاگادارکردنەوەکان",
+    "notification_title": "دانیشتن بەم زووانە دەستپێدەکات",
+    "notification_body": "{{session}} لە {{minutes}} خولەکدا دەستپێدەکات",
+    "guest_notice": "میوانەکان دەتوانن پرۆگرامەکە ببینن بەڵام ناتوانن دانیشتن هەڵبژێرن"
+  },
+  "notifications": {
+    "permission_title": "چالاککردنی ئاگادارکردنەوەکان",
+    "permission_message": "ڕێگە بدە بە ئاگادارکردنەوەکان بۆ وەرگرتنی بیرخستنەوە بۆ دانیشتنە هەڵبژێردراوەکانت",
+    "enable": "چالاککردن",
+    "session_starting": "دانیشتن دەستپێدەکات",
+    "session_reminder": "بیرخستنەوەی دانیشتن"
+  },
+  "settings": {
+    "title": "ڕێکخستنەکان",
+    "language": "زمان",
+    "notifications": "ئاگادارکردنەوەکان",
+    "about": "دەربارە"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "common": {
+    "loading": "Tê barkirin...",
+    "error": "Çewtî",
+    "retry": "Dîsa hewil bide",
+    "cancel": "Betal bike",
+    "confirm": "Piştrast bike",
+    "save": "Tomar bike",
+    "close": "Bigire",
+    "back": "Vegere",
+    "next": "Pêş",
+    "done": "Qediya",
+    "search": "Lêgerîn",
+    "filter": "Fîltre bike",
+    "sort": "Rêz bike",
+    "refresh": "Nû bike"
+  },
+  "auth": {
+    "welcome": "Bi xêr hatin bo",
+    "conference_title": "Kongreya Zanistê ya Yekem a Hojanê",
+    "subtitle": "Girêdana Zanayên Kurd ên li Cîhanê",
+    "sign_in": "Têkevê",
+    "create_account": "Hesab Çê bike",
+    "continue_as_guest": "Wek Mêvan Bidom",
+    "select_language": "Ziman Hilbijêre",
+    "guest_info": "Wek mêvan, hûn dikarin bername bibînin lê nikarin dest bi taybetmendiyên civakî bikin.",
+    "english": "Îngilîzî",
+    "french": "Frensî",
+    "kurdish_sorani": "Kurdiya Soranî",
+    "kurdish_kurmanji": "Kurdiya Kurmancî"
+  },
+  "navigation": {
+    "program": "Bername",
+    "my_schedule": "Bernamea Min"
+  },
+  "program": {
+    "title": "Bernamea Kongreyê",
+    "day": "Roja {{number}}an",
+    "session_details": "Hûrguliyên Danûstendinê",
+    "speaker": "Axêver",
+    "time": "Dem",
+    "location": "Cîh",
+    "theme": "Mijar",
+    "description": "Şîrove",
+    "add_to_schedule": "Li Bernameyê Zêde bike",
+    "remove_from_schedule": "Ji Bernameyê Rake",
+    "notify_before": "Berî Agahdarî Bike",
+    "minutes_before": "{{minutes}} deqe berî",
+    "session_types": {
+      "keynote": "Gotina Serekî",
+      "presentation": "Pêşkêşkirin",
+      "panel": "Nîqaşa Panelê",
+      "workshop": "Atolye",
+      "break": "Navber",
+      "ceremony": "Tören",
+      "social": "Bûyera Civakî",
+      "poster": "Danûstendina Posteran"
+    }
+  },
+  "my_schedule": {
+    "title": "Bernamea Min",
+    "selected_sessions": "{{count}} danûstendin hatine hilbijartin",
+    "no_sessions": "Tu danûstendin nehatiye hilbijartin",
+    "no_sessions_subtitle": "Bernameyê bigere û danûstendinên ku te jê hez dike zêde bike",
+    "browse_program": "Bernameyê Bigere",
+    "remind_me": "Bîra min bike",
+    "session_details": "Hûrgulî",
+    "notifications": "Agahdarkirin",
+    "notification_title": "Danûstendin Bi Zû Dest Pê Dike",
+    "notification_body": "{{session}} di {{minutes}} deqeyan de dest pê dike",
+    "guest_notice": "Mêvan dikarin bernameyê bibînin lê nikarin danûstendin hilbijêrin"
+  },
+  "notifications": {
+    "permission_title": "Agahdarkirinê Çalak bike",
+    "permission_message": "Destûr bide agahdarkirinê ji bo wergirtina bîrxistinên danûstendinên te ên hilbijartî",
+    "enable": "Çalak bike",
+    "session_starting": "Danûstendin Dest Pê Dike",
+    "session_reminder": "Bîrxistina Danûstendinê"
+  },
+  "settings": {
+    "title": "Mîhengkirin",
+    "language": "Ziman",
+    "notifications": "Agahdarkirin",
+    "about": "Der barê"
+  }
+}

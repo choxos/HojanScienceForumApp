@@ -4,11 +4,13 @@ import * as RNLocalize from 'react-native-localize';
 
 // Import translations
 import en from '../locales/en.json';
+import fr from '../locales/fr.json';
 import kuSorani from '../locales/ku-sorani.json';
 import kuKurmanji from '../locales/ku-kurmanji.json';
 
 const resources = {
   en: { translation: en },
+  fr: { translation: fr },
   'ku-sorani': { translation: kuSorani },
   'ku-kurmanji': { translation: kuKurmanji },
 };
@@ -21,6 +23,10 @@ const getDeviceLanguage = () => {
     // Check if device language is Kurdish
     if (locale.languageCode === 'ku' || locale.languageTag.includes('ku')) {
       return 'ku-sorani'; // Default to Sorani
+    }
+    // Support French
+    if (locale.languageCode === 'fr') {
+      return 'fr';
     }
     return locale.languageCode;
   }

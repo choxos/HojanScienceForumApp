@@ -13,7 +13,7 @@ export interface UserProfile {
   };
   profileImage?: string;
   userType: 'attendee' | 'speaker' | 'organizer' | 'guest';
-  preferredLanguage: 'en' | 'ku-sorani' | 'ku-kurmanji';
+  preferredLanguage: 'en' | 'fr' | 'ku-sorani' | 'ku-kurmanji';
   isGuest?: boolean;
 }
 
@@ -114,10 +114,8 @@ export type RootStackParamList = {
 };
 
 export type MainTabParamList = {
-  Home: undefined;
-  Schedule: undefined;
+  Program: undefined;
   MySchedule: undefined;
-  Settings: undefined;
 };
 
 // Socket.io Event Types
@@ -134,10 +132,11 @@ export const SocketEvents = {
 export type SocketEventType = typeof SocketEvents[keyof typeof SocketEvents];
 
 // Language Types
-export type LanguageCode = 'en' | 'ku-sorani' | 'ku-kurmanji';
+export type LanguageCode = 'en' | 'fr' | 'ku-sorani' | 'ku-kurmanji';
 
 export interface TranslatedText {
   en: string;
+  fr: string;
   'ku-sorani': string;
   'ku-kurmanji': string;
 }

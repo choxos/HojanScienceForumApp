@@ -22,7 +22,7 @@ const authSlice = createSlice({
       state.isGuest = false;
       state.error = null;
     },
-    setGuestUser: (state, action: PayloadAction<{ preferredLanguage: 'en' | 'ku-sorani' | 'ku-kurmanji' }>) => {
+    setGuestUser: (state, action: PayloadAction<{ preferredLanguage: 'en' | 'fr' | 'ku-sorani' | 'ku-kurmanji' }>) => {
       state.user = {
         id: 'guest-' + Date.now(),
         name: 'Guest User',

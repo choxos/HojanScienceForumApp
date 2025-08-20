@@ -1,0 +1,86 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "done": "Terminé",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "refresh": "Actualiser"
+  },
+  "auth": {
+    "welcome": "Bienvenue au",
+    "conference_title": "1er Forum Scientifique Hojan",
+    "subtitle": "Connecter les Scientifiques Kurdes dans le Monde",
+    "sign_in": "Se Connecter",
+    "create_account": "Créer un Compte",
+    "continue_as_guest": "Continuer en tant qu'Invité",
+    "select_language": "Sélectionner la Langue",
+    "guest_info": "En tant qu'invité, vous pouvez consulter le programme mais pas accéder aux fonctionnalités sociales.",
+    "english": "Anglais",
+    "french": "Français",
+    "kurdish_sorani": "Kurde Sorani",
+    "kurdish_kurmanji": "Kurde Kurmanji"
+  },
+  "navigation": {
+    "program": "Programme",
+    "my_schedule": "Mon Planning"
+  },
+  "program": {
+    "title": "Programme de la Conférence",
+    "day": "Jour {{number}}",
+    "session_details": "Détails de la Session",
+    "speaker": "Conférencier",
+    "time": "Heure",
+    "location": "Lieu",
+    "theme": "Thème",
+    "description": "Description",
+    "add_to_schedule": "Ajouter au Planning",
+    "remove_from_schedule": "Retirer du Planning",
+    "notify_before": "Notifier Avant",
+    "minutes_before": "{{minutes}} minutes avant",
+    "session_types": {
+      "keynote": "Discours Principal",
+      "presentation": "Présentation",
+      "panel": "Table Ronde", 
+      "workshop": "Atelier",
+      "break": "Pause",
+      "ceremony": "Cérémonie",
+      "social": "Événement Social",
+      "poster": "Session d'Affichage"
+    }
+  },
+  "my_schedule": {
+    "title": "Mon Planning",
+    "selected_sessions": "{{count}} sessions sélectionnées",
+    "no_sessions": "Aucune session sélectionnée",
+    "no_sessions_subtitle": "Parcourez le programme et ajoutez les sessions qui vous intéressent",
+    "browse_program": "Parcourir le Programme",
+    "remind_me": "Me Rappeler",
+    "session_details": "Détails",
+    "notifications": "Notifications",
+    "notification_title": "Session Bientôt",
+    "notification_body": "{{session}} commence dans {{minutes}} minutes",
+    "guest_notice": "Les invités peuvent consulter le planning mais ne peuvent pas sélectionner de sessions"
+  },
+  "notifications": {
+    "permission_title": "Activer les Notifications",
+    "permission_message": "Autorisez les notifications pour recevoir des rappels de vos sessions sélectionnées",
+    "enable": "Activer",
+    "session_starting": "Session Commençante",
+    "session_reminder": "Rappel de Session"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "notifications": "Notifications",
+    "about": "À Propos"
+  }
+}

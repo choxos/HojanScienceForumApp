@@ -5,14 +5,46 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../types';
 
 // Import screen components
-import HomeScreen from '../screens/home/HomeScreen';
 import ScheduleScreen from '../screens/schedule/ScheduleScreen';
-import MyScheduleScreen from '../screens/myschedule/MyScheduleScreen';
-import SettingsScreen from '../screens/settings/SettingsScreen';
-
 import { MainTabParamList } from '../types';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 
 const Tab = createBottomTabNavigator<MainTabParamList>();
+
+// Simple inline MySchedule component to avoid import issues
+const MyScheduleScreen: React.FC = () => {
+  const { isGuest } = useSelector((state: RootState) => state.auth);
+  
+  return (
+    <ScrollView style={styles.container}>
+      <View style={styles.header}>
+        <Icon name="bookmark" size={32} color="#1976D2" />
+        <Text style={styles.headerTitle}>My Schedule</Text>
+        <Text style={styles.headerSubtitle}>Notification preferences for selected sessions</Text>
+      </View>
+      
+      {isGuest && (
+        <View style={styles.guestNotice}>
+          <Icon name="info" size={20} color="#F56500" />
+          <Text style={styles.guestNoticeText}>
+            Guest users can view the schedule but cannot select sessions for notifications
+          </Text>
+        </View>
+      )}
+      
+      <View style={styles.content}>
+        <Icon name="bookmark-border" size={64} color="#BDBDBD" />
+        <Text style={styles.emptyTitle}>No sessions selected yet</Text>
+        <Text style={styles.emptySubtitle}>
+          Browse the program and select sessions to receive notifications
+        </Text>
+        <TouchableOpacity style={styles.browseButton}>
+          <Text style={styles.browseButtonText}>Browse Program</Text>
+        </TouchableOpacity>
+      </View>
+    </ScrollView>
+  );
+};
 
 const MainTabNavigator: React.FC = () => {
   const isGuest = useSelector((state: RootState) => state.auth.isGuest);
@@ -24,17 +56,11 @@ const MainTabNavigator: React.FC = () => {
           let iconName: string;
 
           switch (route.name) {
-            case 'Home':
-              iconName = 'home';
-              break;
-            case 'Schedule':
+            case 'Program':
               iconName = 'event';
               break;
             case 'MySchedule':
               iconName = 'bookmark';
-              break;
-            case 'Settings':
-              iconName = 'settings';
               break;
             default:
               iconName = 'help';
@@ -72,12 +98,7 @@ const MainTabNavigator: React.FC = () => {
       })}
     >
       <Tab.Screen 
-        name="Home" 
-        component={HomeScreen}
-        options={{ title: 'Home' }}
-      />
-      <Tab.Screen 
-        name="Schedule" 
+        name="Program" 
         component={ScheduleScreen}
         options={{ title: 'Program' }}
       />
@@ -86,13 +107,77 @@ const MainTabNavigator: React.FC = () => {
         component={MyScheduleScreen}
         options={{ title: 'My Schedule' }}
       />
-      <Tab.Screen 
-        name="Settings" 
-        component={SettingsScreen}
-        options={{ title: 'Settings' }}
-      />
     </Tab.Navigator>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F5F5F5',
+  },
+  header: {
+    backgroundColor: '#FFFFFF',
+    padding: 24,
+    alignItems: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: '#E0E0E0',
+  },
+  headerTitle: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#212121',
+    marginTop: 8,
+  },
+  headerSubtitle: {
+    fontSize: 14,
+    color: '#666666',
+    marginTop: 4,
+    textAlign: 'center',
+  },
+  guestNotice: {
+    backgroundColor: '#FFF3CD',
+    padding: 16,
+    margin: 16,
+    borderRadius: 8,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  guestNoticeText: {
+    marginLeft: 8,
+    color: '#856404',
+    flex: 1,
+  },
+  content: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 48,
+  },
+  emptyTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#666666',
+    marginTop: 16,
+  },
+  emptySubtitle: {
+    fontSize: 14,
+    color: '#999999',
+    textAlign: 'center',
+    marginTop: 8,
+    marginBottom: 24,
+  },
+  browseButton: {
+    backgroundColor: '#1976D2',
+    paddingHorizontal: 24,
+    paddingVertical: 12,
+    borderRadius: 24,
+  },
+  browseButtonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+});
 
 export default MainTabNavigator;
