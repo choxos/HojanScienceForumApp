@@ -10,6 +10,7 @@ import {
 import { useDispatch } from 'react-redux';
 import { setGuestUser } from '../../store/slices/authSlice';
 import { LanguageCode } from '../../types';
+import i18n from 'i18next';
 
 const AuthScreen: React.FC = () => {
   const dispatch = useDispatch();
@@ -21,6 +22,7 @@ const AuthScreen: React.FC = () => {
 
   const handleLanguageSelect = (language: LanguageCode) => {
     setSelectedLanguage(language);
+    i18n.changeLanguage(language);
   };
 
   return (

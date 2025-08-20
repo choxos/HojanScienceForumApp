@@ -6,23 +6,18 @@ import { combineReducers } from '@reduxjs/toolkit';
 // Import reducers (we'll create these next)
 import authReducer from './slices/authSlice';
 import sessionsReducer from './slices/sessionsSlice';
-import speakersReducer from './slices/speakersSlice';
-import userReducer from './slices/userSlice';
-import notificationsReducer from './slices/notificationsSlice';
+import settingsReducer from './slices/settingsSlice';
 
 const persistConfig = {
   key: 'root',
   version: 1,
   storage: AsyncStorage,
-  blacklist: ['notifications'], // Don't persist notifications
 };
 
 const rootReducer = combineReducers({
   auth: authReducer,
   sessions: sessionsReducer,
-  speakers: speakersReducer,
-  user: userReducer,
-  notifications: notificationsReducer,
+  settings: settingsReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

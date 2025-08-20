@@ -8,6 +8,9 @@ import 'react-native-gesture-handler';
 // Store and services
 import { store, persistor } from './src/store';
 import initI18n from './src/services/i18n';
+import { useSelector } from 'react-redux';
+import i18next from 'i18next';
+import type { RootState } from './src/types';
 
 // Navigation
 import RootNavigator from './src/navigation/RootNavigator';
@@ -25,6 +28,7 @@ function App(): React.JSX.Element {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
+          <LanguageSync />
           <StatusBar barStyle="dark-content" backgroundColor="#FFFFFF" />
           <RootNavigator />
         </PersistGate>
@@ -34,3 +38,13 @@ function App(): React.JSX.Element {
 }
 
 export default App;
+
+function LanguageSync(): null {
+  const language = useSelector((state: RootState) => state.settings.language);
+  useEffect(() => {
+    if (language) {
+      i18next.changeLanguage(language);
+    }
+  }, [language]);
+  return null;
+}

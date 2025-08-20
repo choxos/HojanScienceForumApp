@@ -1,0 +1,1309 @@
+{
+  "conference": {
+    "name": {
+      "en": "1st Hojan Science Forum",
+      "fr": "1er Forum Scientifique Hojan",
+      "ku-sorani": "یەکەم کۆنگرەی زانستیی هۆژان",
+      "ku-kurmanji": "Kongreya Zanistê ya Yekem a Hojanê"
+    },
+    "dates": "August 25-28, 2024",
+    "days": [
+      {
+        "day": 1,
+        "date": "August 25, 2024",
+        "sessions": [
+          {
+            "id": "day1_registration",
+            "time": "08:00 - 08:45",
+            "title": {
+              "en": "Registration",
+              "fr": "Inscription",
+              "ku-sorani": "تۆمارکردن",
+              "ku-kurmanji": "Tomarkirin"
+            },
+            "type": "registration",
+            "color": "#E3F2FD",
+            "description": {
+              "en": "Conference Registration",
+              "fr": "Inscription à la conférence",
+              "ku-sorani": "تۆمارکردن بۆ کۆنگرە",
+              "ku-kurmanji": "Tomarkirina Kongreyê"
+            }
+          },
+          {
+            "id": "day1_opening",
+            "time": "09:00 - 09:45",
+            "title": {
+              "en": "Opening & Introductory Remarks",
+              "fr": "Ouverture et Remarques Introductives",
+              "ku-sorani": "کردنەوە و وتەی دەستپێک",
+              "ku-kurmanji": "Vekirina û Gotinên Destpêkê"
+            },
+            "type": "ceremony",
+            "color": "#FFF3E0",
+            "description": {
+              "en": "Welcome to the 1st Hojan Science Forum",
+              "fr": "Bienvenue au 1er Forum Scientifique Hojan",
+              "ku-sorani": "بەخێربێن بۆ یەکەم کۆنگرەی زانستیی هۆژان",
+              "ku-kurmanji": "Bi xêr hatin bo Kongreya Zanistê ya Yekem a Hojanê"
+            }
+          },
+          {
+            "id": "day1_keynote1",
+            "time": "09:45 - 10:30",
+            "title": {
+              "en": "Keynote Speech I",
+              "fr": "Discours Principal I",
+              "ku-sorani": "وتەی سەرەکیی یەکەم",
+              "ku-kurmanji": "Gotina Serekî ya Yekem"
+            },
+            "speaker": "Prof. J. Sheyholislami",
+            "type": "keynote",
+            "color": "#E8F5E8",
+            "theme": {
+              "en": "Science Communication in Kurdish",
+              "fr": "Communication Scientifique en Kurde",
+              "ku-sorani": "پەیوەندی زانستی بە کوردی",
+              "ku-kurmanji": "Pêwendiya Zanistî bi Kurdî"
+            },
+            "description": {
+              "en": "Opening keynote on science communication in Kurdish language",
+              "fr": "Discours d'ouverture sur la communication scientifique en kurde",
+              "ku-sorani": "وتەی کردنەوە دەربارەی پەیوەندی زانستی بە زمانی کوردی",
+              "ku-kurmanji": "Gotina vekirinê li ser pêwendiya zanistî bi zimanê kurdî"
+            }
+          },
+          {
+            "id": "day1_coffee1",
+            "time": "10:30 - 11:00",
+            "title": {
+              "en": "Coffee Break",
+              "fr": "Pause Café",
+              "ku-sorani": "پشوودانی چا",
+              "ku-kurmanji": "Navbera Çayê"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Morning coffee break",
+              "fr": "Pause café du matin",
+              "ku-sorani": "پشوودانی چای بەیانی",
+              "ku-kurmanji": "Navbera çayê ya sibehê"
+            }
+          },
+          {
+            "id": "day1_heritage",
+            "time": "11:00 - 12:30",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Intersections of Science and Heritage",
+              "fr": "Intersections de la Science et du Patrimoine",
+              "ku-sorani": "پێکهاتەی زانست و میرات",
+              "ku-kurmanji": "Pêkhatina Zanistê û Mîratê"
+            },
+            "speakers": [
+              {
+                "code": "HSF_IV15",
+                "name": "Aram Ghalali",
+                "title": "Detecting Degradation Products of Chemical Weapon Agents in the Soil of Halabja, With Persisting Genotoxic Effects Decades After Their Use",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_27",
+                "name": "Jamil Bahrami",
+                "title": "Water Resources Management in Kurdistan",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_98",
+                "name": "Sima Saadi",
+                "title": "Harnessing Big Data for Freshwater Protection: Applying Canadian Water Monitoring Insights to Kurdistan's Lakes (Case of Lake Zrebar)",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_41",
+                "name": "Diako Kaboodi",
+                "title": "Reviving the şimşal through Science to Protect the Kurdish Heritage",
+                "style": "Talk"
+              },
+              {
+                "code": "HSF_17",
+                "name": "Boshra Bahrami",
+                "title": "What Does a Cow Say?: Exploring Onomatopoeic Animal Sounds Across Kurdish and English in Pediatric Speech-Language Contexts",
+                "style": "Talk"
+              }
+            ],
+            "description": {
+              "en": "Presentations on science and Kurdish heritage",
+              "fr": "Présentations sur la science et le patrimoine kurde",
+              "ku-sorani": "پێشکەشکردن لەسەر زانست و میراتی کوردی",
+              "ku-kurmanji": "Pêşkêşkirin li ser zanist û mîrata kurdî"
+            }
+          },
+          {
+            "id": "day1_lunch",
+            "time": "12:30 - 13:30",
+            "title": {
+              "en": "Lunch Break + Social Campaigns CA",
+              "fr": "Pause Déjeuner + Campagnes Sociales CA",
+              "ku-sorani": "پشوودانی نانی نیوەڕۆ + هەڵمەتی کۆمەڵایەتی",
+              "ku-kurmanji": "Navbera Taştê + Kampanyayên Civakî"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Lunch and social campaigns",
+              "fr": "Déjeuner et campagnes sociales",
+              "ku-sorani": "نانی نیوەڕۆ و هەڵمەتی کۆمەڵایەتی",
+              "ku-kurmanji": "Taşt û kampanyayên civakî"
+            }
+          },
+          {
+            "id": "day1_language",
+            "time": "13:30 - 14:45",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Language & Education",
+              "fr": "Langue et Éducation",
+              "ku-sorani": "زمان و پەروەردە",
+              "ku-kurmanji": "Ziman û Perwerde"
+            },
+            "speakers": [
+              {
+                "code": "HSF_79",
+                "name": "Sardar Saadi",
+                "title": "Learning in Times of Crisis: Introducing the University of Rojava and Higher Education in North and East Syria",
+                "style": "Invited Perspective"
+              },
+              {
+                "code": "HSF_61",
+                "name": "Hawre Hosseini",
+                "title": "Bridging the Data Divide: The Kurdish Language in the Age of AI",
+                "style": "Perspective (Orga Team)"
+              },
+              {
+                "code": "HSF_03",
+                "name": "S. Madeh Piryonesi",
+                "title": "بڕێک لە کێشەکانی زمانی زانستیی کوردی",
+                "style": "Perspective"
+              },
+              {
+                "code": "HSF_56",
+                "name": "Tevfik Bayram",
+                "title": "How 'narration' could unfold oppression and internalized oppression: Insights from the experiences of the Kurds in access to Turkish healthcare services",
+                "style": "Talk"
+              }
+            ],
+            "description": {
+              "en": "Presentations on language and education",
+              "fr": "Présentations sur la langue et l'éducation",
+              "ku-sorani": "پێشکەشکردن لەسەر زمان و پەروەردە",
+              "ku-kurmanji": "Pêşkêşkirin li ser ziman û perwerdeyê"
+            }
+          },
+          {
+            "id": "day1_coffee2",
+            "time": "14:45 - 15:00",
+            "title": {
+              "en": "Coffee Break",
+              "fr": "Pause Café",
+              "ku-sorani": "پشوودانی چا",
+              "ku-kurmanji": "Navbera Çayê"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Afternoon coffee break",
+              "fr": "Pause café de l'après-midi",
+              "ku-sorani": "پشوودانی چای دوانیوەڕۆ",
+              "ku-kurmanji": "Navbera çayê ya piştî nîvro"
+            }
+          },
+          {
+            "id": "day1_panel",
+            "time": "15:00 - 16:45",
+            "title": {
+              "en": "Panel Discussion",
+              "fr": "Table Ronde",
+              "ku-sorani": "گفتوگۆی پانێڵ",
+              "ku-kurmanji": "Nîqaşa Panelê"
+            },
+            "type": "panel",
+            "color": "#FCE4EC",
+            "theme": {
+              "en": "Kurdish in Science & Science Communication",
+              "fr": "Le Kurde dans la Science et la Communication Scientifique",
+              "ku-sorani": "کوردی لە زانست و پەیوەندی زانستیدا",
+              "ku-kurmanji": "Kurdî di Zanist û Pêwendiya Zanistî de"
+            },
+            "description": {
+              "en": "Panel discussion on using Kurdish in scientific communication",
+              "fr": "Table ronde sur l'utilisation du kurde dans la communication scientifique",
+              "ku-sorani": "گفتوگۆی پانێڵ لەسەر بەکارهینانی کوردی لە پەیوەندی زانستیدا",
+              "ku-kurmanji": "Nîqaşa panelê li ser bikaranîna kurdî di pêwendiya zanistî de"
+            }
+          },
+          {
+            "id": "day1_short_break",
+            "time": "16:45 - 16:55",
+            "title": {
+              "en": "Short Break",
+              "fr": "Courte Pause",
+              "ku-sorani": "پشوودانی کورت",
+              "ku-kurmanji": "Navbera Kurt"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Quick break before workshop",
+              "fr": "Courte pause avant l'atelier",
+              "ku-sorani": "پشوودانی کورت پێش وۆرک شۆپ",
+              "ku-kurmanji": "Navbera kurt berî atölyeyê"
+            }
+          },
+          {
+            "id": "day1_workshop",
+            "time": "17:00 - 18:00",
+            "title": {
+              "en": "Workshop/Tutorial",
+              "fr": "Atelier/Tutoriel",
+              "ku-sorani": "وۆرک شۆپ/فێرکاری",
+              "ku-kurmanji": "Atolye/Hînkirin"
+            },
+            "type": "workshop",
+            "color": "#FFF8E1",
+            "theme": {
+              "en": "Science Communication & Science Journalism",
+              "fr": "Communication Scientifique et Journalisme Scientifique",
+              "ku-sorani": "پەیوەندی زانستی و ڕۆژنامەنووسی زانستی",
+              "ku-kurmanji": "Pêwendiya Zanistî û Rojnamevaniya Zanistî"
+            },
+            "description": {
+              "en": "Interactive workshop on science communication and journalism",
+              "fr": "Atelier interactif sur la communication scientifique et le journalisme",
+              "ku-sorani": "وۆرک شۆپی کارلێکردنەوە لەسەر پەیوەندی زانستی و ڕۆژنامەنووسی",
+              "ku-kurmanji": "Atolyeya têkildarî li ser pêwendiya zanistî û rojnamevaniyê"
+            }
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "date": "August 26, 2024",
+        "sessions": [
+          {
+            "id": "day2_keynote2",
+            "time": "09:00 - 09:45",
+            "title": {
+              "en": "Keynote Speech II",
+              "fr": "Discours Principal II",
+              "ku-sorani": "وتەی سەرەکیی دووەم",
+              "ku-kurmanji": "Gotina Serekî ya Duyem"
+            },
+            "speaker": "Prof. G. Leuchs",
+            "type": "keynote",
+            "color": "#E8F5E8",
+            "theme": {
+              "en": "Science and Society",
+              "fr": "Science et Société",
+              "ku-sorani": "زانست و کۆمەڵگا",
+              "ku-kurmanji": "Zanist û Civak"
+            },
+            "description": {
+              "en": "Keynote on the relationship between science and society",
+              "fr": "Discours principal sur la relation entre science et société",
+              "ku-sorani": "وتەی سەرەکی لەسەر پەیوەندی زانست و کۆمەڵگا",
+              "ku-kurmanji": "Gotina serekî li ser têkiliya zanist û civakê"
+            }
+          },
+          {
+            "id": "day2_fundamental1",
+            "time": "09:45 - 10:05",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Frontiers in Fundamental Sciences I",
+              "fr": "Frontières des Sciences Fondamentales I",
+              "ku-sorani": "سنووری زانستە بنەڕەتییەکان یەکەم",
+              "ku-kurmanji": "Sînorên Zanistên Bingehîn I"
+            },
+            "description": {
+              "en": "First session on fundamental science frontiers",
+              "fr": "Première session sur les frontières des sciences fondamentales",
+              "ku-sorani": "دانیشتنی یەکەم لەسەر سنووری زانستە بنەڕەتییەکان",
+              "ku-kurmanji": "Danûstendina yekem li ser sînorên zanistên bingehîn"
+            }
+          },
+          {
+            "id": "day2_coffee1",
+            "time": "10:05 - 10:30",
+            "title": {
+              "en": "Coffee Break",
+              "fr": "Pause Café",
+              "ku-sorani": "پشوودانی چا",
+              "ku-kurmanji": "Navbera Çayê"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Morning coffee break",
+              "fr": "Pause café du matin",
+              "ku-sorani": "پشوودانی چای بەیانی",
+              "ku-kurmanji": "Navbera çayê ya sibehê"
+            }
+          },
+          {
+            "id": "day2_fundamental2",
+            "time": "10:30 - 11:20",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Frontiers in Fundamental Sciences II",
+              "fr": "Frontières des Sciences Fondamentales II",
+              "ku-sorani": "سنووری زانستە بنەڕەتییەکان دووەم",
+              "ku-kurmanji": "Sînorên Zanistên Bingehîn II"
+            },
+            "speakers": [
+              {
+                "code": "HSF_IV11",
+                "name": "Ebrahim Karimi",
+                "title": "Can Human Colour Vision Deficiency Be Overcome?",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_IV04",
+                "name": "Caucher Birkar",
+                "title": "The Fascinating World of Mathematics",
+                "style": "Honorary online talk"
+              },
+              {
+                "code": "HSF_IV11",
+                "name": "Khabat Heshami",
+                "title": "100 years of quantum physics; from theory to application",
+                "style": "Invited Talk"
+              }
+            ],
+            "description": {
+              "en": "Second session on fundamental science frontiers",
+              "fr": "Deuxième session sur les frontières des sciences fondamentales",
+              "ku-sorani": "دانیشتنی دووەم لەسەر سنووری زانستە بنەڕەتییەکان",
+              "ku-kurmanji": "Danûstendina duyem li ser sînorên zanistên bingehîn"
+            }
+          },
+          {
+            "id": "day2_governance",
+            "time": "11:20 - 11:40",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Voices in Global Governance",
+              "fr": "Voix dans la Gouvernance Mondiale",
+              "ku-sorani": "دەنگەکان لە حوکمڕانی جیهانیدا",
+              "ku-kurmanji": "Deng di Rêvebiriya Cîhanî de"
+            },
+            "speakers": [
+              {
+                "code": "HSF_IV10",
+                "name": "Rebar Jaff",
+                "title": "A Kurdish Voice in Global Governance: Navigating Identity, Language, and Purpose from Kurdistan, to Canada, to the UN Headquarters.",
+                "style": "Invited Perspective"
+              }
+            ],
+            "description": {
+              "en": "Presentations on global governance perspectives",
+              "fr": "Présentations sur les perspectives de gouvernance mondiale",
+              "ku-sorani": "پێشکەشکردن لەسەر دیدگای حوکمڕانی جیهانی",
+              "ku-kurmanji": "Pêşkêşkirin li ser dîtina rêvebiriya cîhanî"
+            }
+          },
+          {
+            "id": "day2_lunch",
+            "time": "11:45 - 13:00",
+            "title": {
+              "en": "Lunch Break + Social Campaigns B",
+              "fr": "Pause Déjeuner + Campagnes Sociales B",
+              "ku-sorani": "پشوودانی نانی نیوەڕۆ + هەڵمەتی کۆمەڵایەتی ب",
+              "ku-kurmanji": "Navbera Taştê + Kampanyayên Civakî B"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Lunch and social campaigns",
+              "fr": "Déjeuner et campagnes sociales",
+              "ku-sorani": "نانی نیوەڕۆ و هەڵمەتی کۆمەڵایەتی",
+              "ku-kurmanji": "Taşt û kampanyayên civakî"
+            }
+          },
+          {
+            "id": "day2_storytelling",
+            "time": "13:00 - 14:00",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Science, Storytelling, & Structural Challenges",
+              "fr": "Science, Narration et Défis Structurels",
+              "ku-sorani": "زانست، چیرۆکگوتن و ئاستەنگە ساختاریەکان",
+              "ku-kurmanji": "Zanist, Çîrokgotina û Astengiyên Strukturî"
+            },
+            "speakers": [
+              {
+                "code": "HSF_86",
+                "name": "Roza Yigit",
+                "title": "Kurdish Language in Northern Kurdistan: Archives, Institutions, and Artificial Intelligence",
+                "style": "Invited Perspective"
+              },
+              {
+                "code": "HSF_55",
+                "name": "Ataollah Zarei",
+                "title": "Engineering Education in the Age of Artificial Intelligence: Evolving Contexts, Capabilities, and Curricula",
+                "style": "Extended Talk/Tutorial"
+              },
+              {
+                "code": "HSF_80",
+                "name": "Ranjdar Mustafa Hassan",
+                "title": "سینەما، وەک ئامڕازێک بۆ پەیوەندی زانستی",
+                "style": "Perspective"
+              }
+            ],
+            "description": {
+              "en": "Presentations on science storytelling and structural challenges",
+              "fr": "Présentations sur la narration scientifique et les défis structurels",
+              "ku-sorani": "پێشکەشکردن لەسەر چیرۆکگوتنی زانستی و ئاستەنگە ساختاریەکان",
+              "ku-kurmanji": "Pêşkêşkirin li ser çîrokgotina zanistî û astengiyên strukturî"
+            }
+          },
+          {
+            "id": "day2_poster_pitches",
+            "time": "14:00 - 14:15",
+            "title": {
+              "en": "1-minute Poster Pitches",
+              "fr": "Présentations d'Affiches d'1 minute",
+              "ku-sorani": "پێشکەشکردنی یەک خولەکی پۆستەر",
+              "ku-kurmanji": "Pêşkêşkirina Yek Deqeyî ya Posteran"
+            },
+            "type": "poster",
+            "color": "#E8EAF6",
+            "description": {
+              "en": "Brief poster presentations",
+              "fr": "Brèves présentations d'affiches",
+              "ku-sorani": "پێشکەشکردنی کورتی پۆستەر",
+              "ku-kurmanji": "Pêşkêşkirinên kurte yên posteran"
+            }
+          },
+          {
+            "id": "day2_coffee2",
+            "time": "14:15 - 14:30",
+            "title": {
+              "en": "Coffee Break",
+              "fr": "Pause Café",
+              "ku-sorani": "پشوودانی چا",
+              "ku-kurmanji": "Navbera Çayê"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Coffee break",
+              "fr": "Pause café",
+              "ku-sorani": "پشوودانی چا",
+              "ku-kurmanji": "Navbera çayê"
+            }
+          },
+          {
+            "id": "day2_poster_session",
+            "time": "14:30 - 15:30",
+            "title": {
+              "en": "Poster Session",
+              "fr": "Session d'Affichage",
+              "ku-sorani": "دانیشتنی پۆستەر",
+              "ku-kurmanji": "Danûstendina Posteran"
+            },
+            "type": "poster",
+            "color": "#E8EAF6",
+            "posters": [
+              {
+                "code": "HSF_48",
+                "name": "Zanko Rouein",
+                "title": "Design and Fabrication of a Biosensor for Detecting Fluid Biomarkers in the Early-Stage Diagnosis of Alzheimer's Disease"
+              },
+              {
+                "code": "HSF_25",
+                "name": "Edalat Amini",
+                "title": "Exploring the Protective Role of Natural Compounds in Kidney Health"
+              },
+              {
+                "code": "HSF_57",
+                "name": "Mehdi Jafari",
+                "title": "Exploring the Association between Alcohol Consumption Patterns and Adult-Onset Asthma"
+              },
+              {
+                "code": "HSF_26",
+                "name": "Saeed Khezri",
+                "title": "Zoning of Caving and Dissolution Process in Kurdistan Province Based on Natural Factors"
+              },
+              {
+                "code": "HSF_66",
+                "name": "Mehran Mehri",
+                "title": "Metaheuristic Approach for the Facility Layout Problem in a Hospital"
+              }
+            ],
+            "description": {
+              "en": "Interactive poster presentation session",
+              "fr": "Session interactive de présentation d'affiches",
+              "ku-sorani": "دانیشتنی کارلێکردنەوەی پێشکەشکردنی پۆستەر",
+              "ku-kurmanji": "Danûstendina têkildarî ya pêşkêşkirina posteran"
+            }
+          },
+          {
+            "id": "day2_panel_institutions",
+            "time": "15:30 - 17:00",
+            "title": {
+              "en": "Panel Discussion",
+              "fr": "Table Ronde",
+              "ku-sorani": "گفتوگۆی پانێڵ",
+              "ku-kurmanji": "Nîqaşa Panelê"
+            },
+            "type": "panel",
+            "color": "#FCE4EC",
+            "theme": {
+              "en": "Academic Institutions & NGOs",
+              "fr": "Institutions Académiques et ONG",
+              "ku-sorani": "دامەزراوە ئەکادیمیەکان و ڕێکخراوە نا حکومیەکان",
+              "ku-kurmanji": "Damezrawên Akademîk û Rêxistinên Ne-Hikûmî"
+            },
+            "description": {
+              "en": "Panel on academic institutions and NGOs",
+              "fr": "Table ronde sur les institutions académiques et les ONG",
+              "ku-sorani": "پانێڵ لەسەر دامەزراوە ئەکادیمیەکان و ڕێکخراوە نا حکومیەکان",
+              "ku-kurmanji": "Panel li ser damezrawên akademîk û rêxistinên ne-hikûmî"
+            }
+          },
+          {
+            "id": "day2_workshop_grant",
+            "time": "17:15 - 18:15",
+            "title": {
+              "en": "Workshop/Tutorial",
+              "fr": "Atelier/Tutoriel",
+              "ku-sorani": "وۆرک شۆپ/فێرکاری",
+              "ku-kurmanji": "Atolye/Hînkirin"
+            },
+            "type": "workshop",
+            "color": "#FFF8E1",
+            "theme": {
+              "en": "Grant Writing",
+              "fr": "Rédaction de Subventions",
+              "ku-sorani": "نووسینی پڕۆپۆزاڵی خەرجی",
+              "ku-kurmanji": "Nivîsandina Proje û Fonê"
+            },
+            "description": {
+              "en": "Workshop on grant writing skills",
+              "fr": "Atelier sur les compétences de rédaction de subventions",
+              "ku-sorani": "وۆرک شۆپ لەسەر شارەزایی نووسینی پڕۆپۆزاڵی خەرجی",
+              "ku-kurmanji": "Atolye li ser jêhatîbûna nivîsandina proje û fonê"
+            }
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "date": "August 27, 2024",
+        "sessions": [
+          {
+            "id": "day3_keynote3",
+            "time": "09:00 - 09:45",
+            "title": {
+              "en": "Keynote Speech III",
+              "fr": "Discours Principal III",
+              "ku-sorani": "وتەی سەرەکیی سێیەم",
+              "ku-kurmanji": "Gotina Serekî ya Sêyem"
+            },
+            "speaker": "Prof. E. Karimi",
+            "type": "keynote",
+            "color": "#E8F5E8",
+            "theme": {
+              "en": "Shaping a Career, Like Shaping Light",
+              "fr": "Façonner une Carrière, Comme Façonner la Lumière",
+              "ku-sorani": "شێوەپێدان بە پیشەی کار وەک شێوەپێدان بە ڕووناکی",
+              "ku-kurmanji": "Şekildana Pîşeyekê, Wekî Şekildana Ronahiyê"
+            },
+            "description": {
+              "en": "Keynote on career development and scientific journey",
+              "fr": "Discours principal sur le développement de carrière et le parcours scientifique",
+              "ku-sorani": "وتەی سەرەکی لەسەر گەشەپێدانی پیشەیی و گەشتی زانستی",
+              "ku-kurmanji": "Gotina serekî li ser pêşkeftina pîşeyî û rêya zanistî"
+            }
+          },
+          {
+            "id": "day3_urban_science",
+            "time": "09:45 - 10:30",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Urban Science",
+              "fr": "Science Urbaine",
+              "ku-sorani": "زانستی شارستانی",
+              "ku-kurmanji": "Zanista Bajarî"
+            },
+            "speakers": [
+              {
+                "code": "HSF_02",
+                "name": "S. Madeh Piryonesi",
+                "title": "A smart city, a smart move or a dumb one?",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_07",
+                "name": "Shene Abdalla",
+                "title": "IllumiSafe: AI-Driven Adaptive Street Lighting and Vehicle Simulator Safety for Enhanced Driver and Pedestrian Visibility",
+                "style": "Talk"
+              },
+              {
+                "code": "HSF_08",
+                "name": "Jiro Sadeghi",
+                "title": "Developing a Walkability Scoring Platform: A Multi-Criteria GIS-Based Approach for Geneva",
+                "style": "Talk"
+              }
+            ],
+            "description": {
+              "en": "Presentations on urban science and smart cities",
+              "fr": "Présentations sur la science urbaine et les villes intelligentes",
+              "ku-sorani": "پێشکەشکردن لەسەر زانستی شارستانی و شارە زیرەکەکان",
+              "ku-kurmanji": "Pêşkêşkirin li ser zanista bajarî û bajarên zîrek"
+            }
+          },
+          {
+            "id": "day3_coffee1",
+            "time": "10:30 - 11:00",
+            "title": {
+              "en": "Coffee Break",
+              "fr": "Pause Café",
+              "ku-sorani": "پشوودانی چا",
+              "ku-kurmanji": "Navbera Çayê"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Morning coffee break",
+              "fr": "Pause café du matin",
+              "ku-sorani": "پشوودانی چای بەیانی",
+              "ku-kurmanji": "Navbera çayê ya sibehê"
+            }
+          },
+          {
+            "id": "day3_health",
+            "time": "11:00 - 12:30",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Health",
+              "fr": "Santé",
+              "ku-sorani": "تەندروستی",
+              "ku-kurmanji": "Tendurustî"
+            },
+            "speakers": [
+              {
+                "code": "HSF_13",
+                "name": "Hemn Mohammadpour",
+                "title": "Chronic Stress and Cancer: An Old Question with New Insights",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_84",
+                "name": "Hauna Sheyholislami",
+                "title": "Micronutrients and Microbes: Advancing Health of Women and Future Generations",
+                "style": "Talk"
+              },
+              {
+                "code": "HSF_58",
+                "name": "Kwestan Safari",
+                "title": "Targeting IL-13 to Prevent Intestinal Fibrosis in Crohn's Disease",
+                "style": "Talk"
+              },
+              {
+                "code": "HSF_78",
+                "name": "Majed Amini",
+                "title": "Next-Generation Wound Care: A Microneedle Patch with Integrated Sensing and Therapeutic Delivery",
+                "style": "Talk"
+              },
+              {
+                "code": "HSF_70",
+                "name": "Mehdi Jafari",
+                "title": "Determinants of Multi-Drug-Resistant Tuberculosis in Iran: A National Population-Based Matched Case-Control Study",
+                "style": "Talk"
+              },
+              {
+                "code": "HSF_100",
+                "name": "Shahin Zagros",
+                "title": "An integrated perspective into human relational memory",
+                "style": "Talk"
+              }
+            ],
+            "description": {
+              "en": "Presentations on health and medical research",
+              "fr": "Présentations sur la santé et la recherche médicale",
+              "ku-sorani": "پێشکەشکردن لەسەر تەندروستی و لێکۆڵینەوەی پزیشکی",
+              "ku-kurmanji": "Pêşkêşkirin li ser tendurustî û lêkolînên bijîjkî"
+            }
+          },
+          {
+            "id": "day3_lunch",
+            "time": "12:30 - 13:40",
+            "title": {
+              "en": "Lunch Break + Mentoring Session",
+              "fr": "Pause Déjeuner + Session de Mentorat",
+              "ku-sorani": "پشوودانی نانی نیوەڕۆ + دانیشتنی ڕابەرایەتی",
+              "ku-kurmanji": "Navbera Taştê + Danûstendina Rêberiyê"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Lunch and mentoring opportunities",
+              "fr": "Déjeuner et opportunités de mentorat",
+              "ku-sorani": "نانی نیوەڕۆ و دەرفەتەکانی ڕابەرایەتی",
+              "ku-kurmanji": "Taşt û derfetên rêberiyê"
+            }
+          },
+          {
+            "id": "day3_energy_environment",
+            "time": "13:40 - 15:30",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Energy & Environment",
+              "fr": "Énergie et Environnement",
+              "ku-sorani": "وزە و ژینگە",
+              "ku-kurmanji": "Enerjî û Jîngehê"
+            },
+            "speakers": [
+              {
+                "code": "HSF_IV14",
+                "name": "Maziar Rajabi",
+                "title": "Carbon Economy as a Catalyst for Global Transformation: From Policy to Practice in Emerging and Advanced Markets",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_IV02",
+                "name": "Serveh Kamrava",
+                "title": "Machine Learning Aided Materials Property Optimization",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_IV01",
+                "name": "Farid Safari",
+                "title": "A question concerning technology; Ecological perspective",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_IV13",
+                "name": "Shadi Vafaeyan",
+                "title": "Clean Energy from Hydrocarbons? Revisiting direct hydrocarbon fuel cells in a decarbonizing world",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_35",
+                "name": "Zaniar Ahmadi",
+                "title": "Greenhouse-Gas-Emission-Aware Portfolio Optimization with Deep Reinforcement Learning",
+                "style": "Talk"
+              },
+              {
+                "code": "HSF_72",
+                "name": "Media Sina",
+                "title": "Silicon in lithium ion batteries: the path to more accessible energy storage",
+                "style": "Talk"
+              }
+            ],
+            "description": {
+              "en": "Presentations on energy and environmental research",
+              "fr": "Présentations sur l'énergie et la recherche environnementale",
+              "ku-sorani": "پێشکەشکردن لەسەر وزە و لێکۆڵینەوەی ژینگەیی",
+              "ku-kurmanji": "Pêşkêşkirin li ser enerjî û lêkolînên jîngehê"
+            }
+          },
+          {
+            "id": "day3_coffee2",
+            "time": "15:30 - 15:45",
+            "title": {
+              "en": "Coffee Break",
+              "fr": "Pause Café",
+              "ku-sorani": "پشوودانی چا",
+              "ku-kurmanji": "Navbera Çayê"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Coffee break",
+              "fr": "Pause café",
+              "ku-sorani": "پشوودانی چا",
+              "ku-kurmanji": "Navbera çayê"
+            }
+          },
+          {
+            "id": "day3_panel_career",
+            "time": "15:45 - 17:30",
+            "title": {
+              "en": "Panel Discussion",
+              "fr": "Table Ronde",
+              "ku-sorani": "گفتوگۆی پانێڵ",
+              "ku-kurmanji": "Nîqaşa Panelê"
+            },
+            "type": "panel",
+            "color": "#FCE4EC",
+            "theme": {
+              "en": "Career Development",
+              "fr": "Développement de Carrière",
+              "ku-sorani": "گەشەپێدانی پیشەیی",
+              "ku-kurmanji": "Pêşkeftina Pîşeyî"
+            },
+            "description": {
+              "en": "Panel discussion on career development strategies",
+              "fr": "Table ronde sur les stratégies de développement de carrière",
+              "ku-sorani": "گفتوگۆی پانێڵ لەسەر ستراتیژەکانی گەشەپێدانی پیشەیی",
+              "ku-kurmanji": "Nîqaşa panelê li ser stratejiyên pêşkeftina pîşeyî"
+            }
+          },
+          {
+            "id": "day3_cultural_night",
+            "time": "18:30 - 22:00",
+            "title": {
+              "en": "Şevê Çandî (Cultural Night)",
+              "fr": "Şevê Çandî (Soirée Culturelle)",
+              "ku-sorani": "شەڤی چاندی",
+              "ku-kurmanji": "Şevê Çandî"
+            },
+            "type": "social",
+            "color": "#FFF3E0",
+            "description": {
+              "en": "Kurdish cultural night with traditional music, dance, and food",
+              "fr": "Soirée culturelle kurde avec musique traditionnelle, danse et nourriture",
+              "ku-sorani": "شەڤی چاندی کوردی لەگەڵ مۆسیقا و سەما و خۆراکی نەتەوایی",
+              "ku-kurmanji": "Şeva çandî ya kurdî bi mûzîk, govend û xwarinên neteweyî"
+            }
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "date": "August 28, 2024",
+        "sessions": [
+          {
+            "id": "day4_keynote4",
+            "time": "09:00 - 09:45",
+            "title": {
+              "en": "Keynote Speech IV",
+              "fr": "Discours Principal IV",
+              "ku-sorani": "وتەی سەرەکیی چوارەم",
+              "ku-kurmanji": "Gotina Serekî ya Çarem"
+            },
+            "speaker": "Prof. S. Abbasi Nejad Enger",
+            "type": "keynote",
+            "color": "#E8F5E8",
+            "theme": {
+              "en": "The Power of Persistence: Women's Journey in Science",
+              "fr": "Le Pouvoir de la Persévérance : Le Parcours des Femmes dans la Science",
+              "ku-sorani": "هێزی پابەندبوون: گەشتی ژنان لە زانستدا",
+              "ku-kurmanji": "Hêza Domdariyê: Rêya Jinan di Zanistê de"
+            },
+            "description": {
+              "en": "Keynote on women's contributions and challenges in science",
+              "fr": "Discours principal sur les contributions et défis des femmes en science",
+              "ku-sorani": "وتەی سەرەکی لەسەر بەشدارییە و ئاستەنگەکانی ژنان لە زانستدا",
+              "ku-kurmanji": "Gotina serekî li ser beşdarî û astengiyên jinan di zanistê de"
+            }
+          },
+          {
+            "id": "day4_equity",
+            "time": "09:45 - 10:30",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Rethinking Equity, Diversity, and Inclusion",
+              "fr": "Repenser l'Équité, la Diversité et l'Inclusion",
+              "ku-sorani": "بیرکردنەوە لەسەر دادپەروەری، جۆراوجۆری و گریمان",
+              "ku-kurmanji": "Ji nû ve fikirîna li ser Dadperwerî, Cûrbecûrbûn û Tevlêbûnê"
+            },
+            "speakers": [
+              {
+                "code": "HSF_IV18",
+                "name": "Berivan Kutlay Sarikaya",
+                "title": "Rethinking DEI and Gender Equality through Refugee Women's Experiences: From Representation to Structural Change",
+                "style": "Invited Perspective"
+              },
+              {
+                "code": "HSF_IV12",
+                "name": "Fereydoon Rahmani",
+                "title": "Kurdish Diasporic Scholarship and the Structural Limits of Equity, Diversity, and Inclusion",
+                "style": "Invited Talk"
+              }
+            ],
+            "description": {
+              "en": "Presentations on equity, diversity, and inclusion in academia",
+              "fr": "Présentations sur l'équité, la diversité et l'inclusion dans l'académie",
+              "ku-sorani": "پێشکەشکردن لەسەر دادپەروەری، جۆراوجۆری و گریمان لە ئەکادیمیادا",
+              "ku-kurmanji": "Pêşkêşkirin li ser dadperwerî, cûrbecûrbûn û tevlêbûnê di akademiyayê de"
+            }
+          },
+          {
+            "id": "day4_coffee1",
+            "time": "10:30 - 11:00",
+            "title": {
+              "en": "Coffee Break",
+              "fr": "Pause Café",
+              "ku-sorani": "پشوودانی چا",
+              "ku-kurmanji": "Navbera Çayê"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Morning coffee break",
+              "fr": "Pause café du matin",
+              "ku-sorani": "پشوودانی چای بەیانی",
+              "ku-kurmanji": "Navbera çayê ya sibehê"
+            }
+          },
+          {
+            "id": "day4_natural_resources",
+            "time": "11:00 - 12:30",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Natural Resources",
+              "fr": "Ressources Naturelles",
+              "ku-sorani": "سەرچاوە سروشتیەکان",
+              "ku-kurmanji": "Çavkaniyên Xwezayî"
+            },
+            "speakers": [
+              {
+                "code": "HSF_IV05",
+                "name": "Kamran Esmaeili",
+                "title": "Intelligent Remote Sensing Solutions for the Mining Industry",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_IV07",
+                "name": "Ezzeddin Bakhtavar",
+                "title": "Sustainable and Responsible Mining",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_94",
+                "name": "Yaser Rahmanian",
+                "title": "Living with Nature in Cold Climates: Integration of domestic dwelling and greenhouse",
+                "style": "Talk"
+              },
+              {
+                "code": "HSF_06",
+                "name": "Hasti Shwan",
+                "title": "Advanced Predictive Analytics for Climate-Resilient Road Infrastructure Using Multisensory and Deep Learning",
+                "style": "Talk"
+              },
+              {
+                "code": "HSF_43",
+                "name": "Keyvan Ranjbar",
+                "title": "National Research Council Canada's airborne observations of the atmosphere",
+                "style": "Talk"
+              }
+            ],
+            "description": {
+              "en": "Presentations on natural resources and sustainability",
+              "fr": "Présentations sur les ressources naturelles et la durabilité",
+              "ku-sorani": "پێشکەشکردن لەسەر سەرچاوە سروشتیەکان و بەردەوامبوون",
+              "ku-kurmanji": "Pêşkêşkirin li ser çavkaniyên xwezayî û domdariyê"
+            }
+          },
+          {
+            "id": "day4_lunch",
+            "time": "12:30 - 13:30",
+            "title": {
+              "en": "Lunch Break + Social Campaigns CB",
+              "fr": "Pause Déjeuner + Campagnes Sociales CB",
+              "ku-sorani": "پشوودانی نانی نیوەڕۆ + هەڵمەتی کۆمەڵایەتی س ب",
+              "ku-kurmanji": "Navbera Taştê + Kampanyayên Civakî CB"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Lunch and social campaigns",
+              "fr": "Déjeuner et campagnes sociales",
+              "ku-sorani": "نانی نیوەڕۆ و هەڵمەتی کۆمەڵایەتی",
+              "ku-kurmanji": "Taşt û kampanyayên civakî"
+            }
+          },
+          {
+            "id": "day4_biology",
+            "time": "13:30 - 14:00",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Biology",
+              "fr": "Biologie",
+              "ku-sorani": "بایۆلۆجی",
+              "ku-kurmanji": "Biyolojî"
+            },
+            "speakers": [
+              {
+                "code": "HSF_92",
+                "name": "Soma Sardar Barawi",
+                "title": "Comparative genomics reveals lateral gene transfer of nitrogen-fixing genes in marine Thalassolituus",
+                "style": "Talk"
+              },
+              {
+                "code": "HSF_01",
+                "name": "Kousar Ramezani",
+                "title": "A scaffold for regeneration of nasal cartilage",
+                "style": "Talk"
+              }
+            ],
+            "description": {
+              "en": "Presentations on biological research",
+              "fr": "Présentations sur la recherche biologique",
+              "ku-sorani": "پێشکەشکردن لەسەر لێکۆڵینەوەی بایۆلۆجی",
+              "ku-kurmanji": "Pêşkêşkirin li ser lêkolînên biyolojîk"
+            }
+          },
+          {
+            "id": "day4_emerging_tech",
+            "time": "14:00 - 14:45",
+            "title": {
+              "en": "Oral Presentations",
+              "fr": "Présentations Orales",
+              "ku-sorani": "پێشکەشکردنی دەمکی",
+              "ku-kurmanji": "Pêşkêşkirinên Devkî"
+            },
+            "type": "presentation",
+            "color": "#E1F5FE",
+            "theme": {
+              "en": "Emerging Technologies",
+              "fr": "Technologies Émergentes",
+              "ku-sorani": "تەکنەلۆژیا نوێکان",
+              "ku-kurmanji": "Teknolojiyên Nû"
+            },
+            "speakers": [
+              {
+                "code": "HSF_IV06",
+                "name": "Rastgo Hawrami",
+                "title": "Novel Materials for Advanced Detection and Imaging Sensors",
+                "style": "Invited Talk"
+              },
+              {
+                "code": "HSF_99",
+                "name": "Hiwa Mahmoudi",
+                "title": "Semiconductors",
+                "style": "Talk (Orga Team)"
+              },
+              {
+                "code": "HSF_90",
+                "name": "Aso Rahimzadegan",
+                "title": "Shrinking Light Technology: A New Era of Miniaturized Optics",
+                "style": "Talk (Orga Team)"
+              }
+            ],
+            "description": {
+              "en": "Presentations on emerging technologies and innovation",
+              "fr": "Présentations sur les technologies émergentes et l'innovation",
+              "ku-sorani": "پێشکەشکردن لەسەر تەکنەلۆژیا نوێکان و نوێگەری",
+              "ku-kurmanji": "Pêşkêşkirin li ser teknolojiyên nû û nûgeriyan"
+            }
+          },
+          {
+            "id": "day4_coffee2",
+            "time": "14:45 - 15:00",
+            "title": {
+              "en": "Coffee Break",
+              "fr": "Pause Café",
+              "ku-sorani": "پشوودانی چا",
+              "ku-kurmanji": "Navbera Çayê"
+            },
+            "type": "break",
+            "color": "#F3E5F5",
+            "description": {
+              "en": "Coffee break",
+              "fr": "Pause café",
+              "ku-sorani": "پشوودانی چا",
+              "ku-kurmanji": "Navbera çayê"
+            }
+          },
+          {
+            "id": "day4_panel_inclusion",
+            "time": "15:00 - 16:30",
+            "title": {
+              "en": "Panel Discussion",
+              "fr": "Table Ronde",
+              "ku-sorani": "گفتوگۆی پانێڵ",
+              "ku-kurmanji": "Nîqaşa Panelê"
+            },
+            "type": "panel",
+            "color": "#FCE4EC",
+            "theme": {
+              "en": "Inclusive Science: EDI & Women",
+              "fr": "Science Inclusive : EDI et Femmes",
+              "ku-sorani": "زانستی گشتگیر: د ج گ و ژنان",
+              "ku-kurmanji": "Zanista Giştgir: EDI û Jinan"
+            },
+            "description": {
+              "en": "Panel on inclusive science practices and women in STEM",
+              "fr": "Panel sur les pratiques scientifiques inclusives et les femmes en STIM",
+              "ku-sorani": "پانێڵ لەسەر شێوازەکانی زانستی گشتگیر و ژنان لە STEM",
+              "ku-kurmanji": "Panel li ser rêbazên zanista giştgir û jinan di STEM de"
+            }
+          },
+          {
+            "id": "day4_awards",
+            "time": "16:30 - 17:00",
+            "title": {
+              "en": "Awards and Farewell",
+              "fr": "Remise de Prix et Adieux",
+              "ku-sorani": "خەڵاتدان و بەڕێکردن",
+              "ku-kurmanji": "Xelatdan û Belavbûn"
+            },
+            "type": "ceremony",
+            "color": "#FFF3E0",
+            "description": {
+              "en": "Award ceremony and closing remarks",
+              "fr": "Cérémonie de remise des prix et remarques de clôture",
+              "ku-sorani": "بۆنەی خەڵاتدان و وتەی کۆتایی",
+              "ku-kurmanji": "Tôrena xelatdanê û gotinên dawî"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "sessionTypes": {
+    "keynote": {
+      "en": "Keynote",
+      "fr": "Discours Principal",
+      "ku-sorani": "وتەی سەرەکی",
+      "ku-kurmanji": "Gotina Serekî",
+      "color": "#E8F5E8"
+    },
+    "presentation": {
+      "en": "Presentation",
+      "fr": "Présentation",
+      "ku-sorani": "پێشکەشکردن",
+      "ku-kurmanji": "Pêşkêşkirin",
+      "color": "#E1F5FE"
+    },
+    "panel": {
+      "en": "Panel Discussion",
+      "fr": "Table Ronde",
+      "ku-sorani": "گفتوگۆی پانێڵ",
+      "ku-kurmanji": "Nîqaşa Panelê",
+      "color": "#FCE4EC"
+    },
+    "workshop": {
+      "en": "Workshop",
+      "fr": "Atelier",
+      "ku-sorani": "وۆرک شۆپ",
+      "ku-kurmanji": "Atolye",
+      "color": "#FFF8E1"
+    },
+    "break": {
+      "en": "Break",
+      "fr": "Pause",
+      "ku-sorani": "پشوودان",
+      "ku-kurmanji": "Navber",
+      "color": "#F3E5F5"
+    },
+    "ceremony": {
+      "en": "Ceremony",
+      "fr": "Cérémonie",
+      "ku-sorani": "بۆنە",
+      "ku-kurmanji": "Tören",
+      "color": "#FFF3E0"
+    },
+    "social": {
+      "en": "Social Event",
+      "fr": "Événement Social",
+      "ku-sorani": "بۆنەی کۆمەڵایەتی",
+      "ku-kurmanji": "Bûyera Civakî",
+      "color": "#FFF3E0"
+    },
+    "poster": {
+      "en": "Poster Session",
+      "fr": "Session d'Affichage",
+      "ku-sorani": "دانیشتنی پۆستەر",
+      "ku-kurmanji": "Danûstendina Posteran",
+      "color": "#E8EAF6"
+    },
+    "registration": {
+      "en": "Registration",
+      "fr": "Inscription",
+      "ku-sorani": "تۆمارکردن",
+      "ku-kurmanji": "Tomarkirin",
+      "color": "#E3F2FD"
+    }
+  }
+}

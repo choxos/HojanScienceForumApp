@@ -109,6 +109,7 @@ export interface NetworkingRequest {
 
 // Navigation Types
 export type RootStackParamList = {
+  Splash: undefined;
   Auth: undefined;
   Main: undefined;
 };
@@ -116,6 +117,15 @@ export type RootStackParamList = {
 export type MainTabParamList = {
   Program: undefined;
   MySchedule: undefined;
+  Settings: undefined;
+};
+
+export type ProgramStackParamList = {
+  ProgramList: undefined;
+  SessionDetail: { 
+    sessionId: string;
+    dayDate: string;
+  };
 };
 
 // Socket.io Event Types
@@ -148,6 +158,16 @@ export interface RootState {
   speakers: SpeakersState;
   user: UserState;
   notifications: NotificationState;
+  settings: SettingsState;
+}
+
+export interface SettingsState {
+  theme: 'system' | 'light' | 'dark';
+  language: LanguageCode;
+  notificationsEnabled: boolean;
+  pushNotifications: boolean;
+  emailNotifications: boolean;
+  soundEnabled: boolean;
 }
 
 export interface AuthState {

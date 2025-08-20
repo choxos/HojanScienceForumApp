@@ -1,6 +1,5 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import * as RNLocalize from 'react-native-localize';
 
 // Import translations
 import en from '../locales/en.json';
@@ -15,22 +14,26 @@ const resources = {
   'ku-kurmanji': { translation: kuKurmanji },
 };
 
-// Get device language
+// Get device language safely (without crashing if RNLocalize native module is missing)
 const getDeviceLanguage = () => {
-  const locales = RNLocalize.getLocales();
-  if (Array.isArray(locales) && locales.length > 0) {
-    const locale = locales[0];
-    // Check if device language is Kurdish
-    if (locale.languageCode === 'ku' || locale.languageTag.includes('ku')) {
-      return 'ku-sorani'; // Default to Sorani
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const RNLocalize = require('react-native-localize');
+    if (RNLocalize && typeof RNLocalize.getLocales === 'function') {
+      const locales = RNLocalize.getLocales();
+      if (Array.isArray(locales) && locales.length > 0) {
+        const locale = locales[0];
+        if (locale.languageCode === 'ku' || String(locale.languageTag || '').includes('ku')) {
+          return 'ku-sorani';
+        }
+        if (locale.languageCode === 'fr') {
+          return 'fr';
+        }
+        return locale.languageCode || 'en';
+      }
     }
-    // Support French
-    if (locale.languageCode === 'fr') {
-      return 'fr';
-    }
-    return locale.languageCode;
-  }
-  return 'en'; // Default fallback
+  } catch {}
+  return 'en';
 };
 
 const initI18n = () => {
